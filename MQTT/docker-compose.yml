@@ -1,0 +1,26 @@
+version: "3.5"
+
+services:
+##Mosquitto
+  mqtt:
+    container_name: mosquitto
+    image: eclipse-mosquitto:latest
+    restart: always
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mqtt/config:/mosquitto/config
+      - ./mqtt/data:/mosquitto/data
+      - ./mqtt/log:/mosquitto/log
+    networks:
+      - mosquitto_net
+volumes:
+  config:
+  data:
+  log:
+
+networks:
+  mosquitto_net:
+    driver: bridge
+    name: mosquitto_netz

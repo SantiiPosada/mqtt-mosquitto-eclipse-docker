@@ -1,0 +1,10 @@
+1650055411: mosquitto version 2.0.14 starting
+1650055411: Config loaded from /mosquitto/config/mosquitto.conf.
+1650055411: Opening ipv4 listen socket on port 1883.
+1650055411: Opening ipv6 listen socket on port 1883.
+1650055411: Opening websockets listen socket on port 9001.
+1650055411: mosquitto version 2.0.14 running
+1650055815: New connection from 172.19.0.1:33086 on port 1883.
+1650055815: New client connected from 172.19.0.1:33086 as 04fa24b1-24ee-46a3-b28f-b79f726443071650055816792 (p2, c1, k10, u'guest').
+1650057211: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650057586: Client 04fa24b1-24ee-46a3-b28f-b79f726443071650055816792 closed its connection.
